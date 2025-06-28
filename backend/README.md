@@ -32,12 +32,7 @@ Make sure you have the following installed:
    npm install
    ```
 
-3. Install and start the MongoDB service:
-   ```bash
-   mongod
-   ```
-
-4. Start the backend server:
+3. Start the backend server:
    ```bash
    npm start
    ```
