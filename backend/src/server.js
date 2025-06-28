@@ -17,10 +17,7 @@ app.use(express.json());
 
 const port = process.env.PORT || 3000;
 
-const DB =
-  process.env.NODE_ENV === "production"
-    ? process.env.MONGODB_URL
-    : "mongodb://localhost:27017/intevuePoll";
+const DB = process.env.MONGODB_URL;
 
 mongoose
   .connect(DB)
