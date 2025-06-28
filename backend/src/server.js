@@ -9,7 +9,7 @@ const {
   createPoll,
   voteOnOption,
   getPolls,
-} = require("../src/controllers/poll");
+} = require("./controllers/poll");
 
 const app = express();
 app.use(cors());
