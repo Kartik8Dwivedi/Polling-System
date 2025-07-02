@@ -56,8 +56,8 @@ frontend/  # Frontend client (React, Vite, Socket.IO-client, Bootstrap)
 
 #### Installation
 ```bash
-git clone <repository-url>
-cd my-app/backend
+git clone https://github.com/Kartik8Dwivedi/Polling-System.git
+cd polling-system/backend
 npm install
 npm start
 ```
@@ -77,8 +77,8 @@ http://localhost:3000
 
 #### Installation
 ```bash
-git clone <repository-url>
-cd my-app/frontend
+git clone https://github.com/Kartik8Dwivedi/Polling-System.git
+cd polling-system/frontend
 npm install
 npm run dev
 ```
@@ -94,6 +94,11 @@ http://localhost:5173
 Real-time features are handled via **Socket.IO** for both teacher and student workflows.
 
 ---
+```bash
+http://localhost:5173
+```
+
+
 
 ## 📂 Environment Variables
 Ensure environment variables (like MongoDB URI, server port, etc.) are configured properly in the `.env` file in the backend project.
@@ -111,4 +116,4 @@ Pull requests and issues are welcome! For major changes, please open an issue fi
 ---
 
 ## 👨‍💼 Author
-**Saran Mani**
+**Kartik Dwivedi** - [GitHub](https://github.com/Kartik8Dwivedi) - [LinkedIn](https://www.linkedin.com/in/kartikdwivedi)
